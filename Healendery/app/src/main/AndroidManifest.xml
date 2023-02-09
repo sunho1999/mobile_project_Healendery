@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.healendery">
+
+    <application
+        android:allowBackup="true"
+        android:name = ".SaveInfo"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Healindary">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".MemberActivity" android:label="MemberActivity"></activity>
+        <activity android:name=".LoginActivity" android:label="LoginActivity"></activity>
+        <activity android:name=".InfoActivity" android:label="InfoActivity"></activity>
+        <activity android:name=".goalActivity" android:label="GoalActivity"></activity>
+        <activity android:name=".CalenderActivity" android:label="CalenderActivity"></activity>
+
+
+        <activity android:name=".WeightActivity" android:label="WeightActivity"></activity>
+
+        <activity android:name=".WeightShoulderActivity" android:label="WeightActivity"></activity>
+        <activity android:name=".WeightBackActivity" android:label="WeightBackActivity"></activity>
+        <activity android:name=".WeightLegAcitivty" android:label="WeightLegActivity"></activity>
+        <activity android:name=".WeightArmActivity" android:label="WeightArmActivity"></activity>
+        <activity android:name=".WeightChestActivity" android:label="WeightChestActivity"></activity>
+
+        <activity android:name=".W_s_dumbelpress_Activity" android:label="dumbelpress"></activity>
+        <activity android:name=".W_s_militarypress_Activity" android:label="militarypress"></activity>
+        <activity android:name=".W_s_fll_Activity" android:label="frontlaise"></activity>
+        <activity android:name=".W_s_sll_Activity" android:label="sideleteral"></activity>
+
+        <activity android:name=".W_a_barbelcurl_Activity" android:label="barbelculr"></activity>
+        <activity android:name=".W_a_cablepushdown_Activity" android:label = "cablepushdown"></activity>
+        <activity android:name=".W_a_dumbelcurl_Activity" android:label="dumbelcurl"></activity>
+        <activity android:name=".W_a_loappushdown_Activity" android:label = "loappushdown"></activity>
+
+        <activity android:name=".W_b_repldown_Activity" android:label ="repldown"></activity>
+        <activity android:name=".W_b_barbellow_Activity" android:label="barbellow"></activity>
+        <activity android:name=".W_b_pullup_Activity" android:label="pullup"></activity>
+        <activity android:name=".W_b_deadlift_Activity" android:label="deadlift"></activity>
+
+        <activity android:name=".W_c_dips_Activity" android:label="dips"></activity>
+        <activity android:name=".W_c_pushup_Activity" android:label="pushup"></activity>
+        <activity android:name=".W_c_inclinepress_Activity" android:label="inclinepress"></activity>
+        <activity android:name=".W_c_benchpress_Activity" android:label="benchpress"></activity>
+
+        <activity android:name=".W_l_legcurl_Activity" android:label="legcurl"></activity>
+        <activity android:name=".W_l_legextension_Activity" android:label="legextension"></activity>
+        <activity android:name=".W_l_legpress_Activity" android:label = "legpress"></activity>
+        <activity android:name=".W_l_squart_Activity" android:label="squart"></activity>
+
+        <activity android:name=".Aerobic_climbing_Activity" android:label="climb"></activity>
+        <activity android:name=".Aerobic_cycle_Activity" android:label="cycle"></activity>
+        <activity android:name=".Aerobic_run_Activity" android:label="run"></activity>
+        <activity android:name=".Aerobic_swim_Activity" android:label="swim"></activity>
+        <activity android:name=".Aerobic_walk_Activity" android:label="walk"></activity>
+
+        <activity android:name=".AerobicActivity" android:label="AerobicActivity"></activity>
+
+        <activity android:name=".exercise_db_Activity" android:label ="exercise_db_Activity"></activity>
+        <activity android:name=".Goal_text_Activity" android:label="Goal_text_Activity"></activity>
+        <activity android:name=".My_infoActivity" android:label = "My_infoActivity"></activity>
+    </application>
+
+</manifest>

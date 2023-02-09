@@ -1,0 +1,217 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_db_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="운동타입: "
+        android:textStyle="bold"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edit_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/text_db_type"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="30" />
+
+    <TextView
+        android:id="@+id/text_db_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_db_type"
+        android:layout_alignLeft="@+id/text_db_type"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="38dp"
+        android:textStyle="bold"
+        android:text="중량: "
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edit_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/text_db_weight"
+        android:layout_alignEnd="@+id/edit_type"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="-15dp"
+        android:layout_toEndOf="@+id/text_db_weight"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="15" />
+
+    <TextView
+        android:id="@+id/text_db_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_db_weight"
+        android:layout_alignLeft="@+id/text_db_weight"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="34dp"
+        android:textStyle="bold"
+        android:text="횟수: "
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edit_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/text_db_count"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="-12dp"
+        android:layout_toEndOf="@+id/text_db_count"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="10" />
+
+    <TextView
+        android:id="@+id/text_db_cycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_db_count"
+        android:layout_alignLeft="@+id/text_db_count"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginTop="20dp"
+        android:text="싸이클: "
+        android:textStyle="bold"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edit_cycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/edit_count"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="10" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_below="@+id/text_db_cycle"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:background="#AAAAAA" />
+
+    <TextView
+        android:id="@+id/text_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line1"
+        android:layout_alignLeft="@+id/text_db_weight"
+        android:layout_marginLeft="-11dp"
+        android:layout_marginTop="19dp"
+        android:text="Sort by "
+        android:textSize="15dp" />
+
+    <CheckBox
+        android:id="@+id/check_usertype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/text_sort"
+        android:layout_alignBottom="@+id/text_sort"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@+id/text_sort"
+        android:text="Type"
+        android:textSize="15dp" />
+
+
+    <CheckBox
+        android:id="@+id/check_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/text_sort"
+        android:layout_alignBottom="@+id/text_sort"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@+id/check_usertype"
+        android:text="Weight"
+        android:textSize="15dp" />
+
+
+    <CheckBox
+        android:id="@+id/check_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/text_sort"
+        android:layout_alignBottom="@+id/text_sort"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@+id/check_weight"
+        android:text="Count"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btn_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/check_count"
+        android:layout_alignStart="@+id/btn_update"
+        android:layout_alignBottom="@+id/check_count"
+        android:background="@drawable/roundyellow2"
+        android:text="View" />
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_below="@+id/text_sort"
+        android:layout_marginTop="20dp"
+        android:background="#AAAAAA"/>
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_below="@+id/line2"
+        android:layout_marginTop="5dp"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ListView
+            android:id="@+id/db_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edit_count"
+        android:layout_alignEnd="@+id/scroll_view"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="-66dp"
+        android:background="@drawable/roundyellow2"
+        android:text="Insert" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_insert"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/roundyellow2"
+        android:text="Update" />
+
+
+</RelativeLayout>

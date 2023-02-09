@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/roundblue2.xml" value="0.21770833333333334" />
+        <entry key="app/src/main/res/drawable-v24/roundlogo.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.16510416666666666" />
+        <entry key="app/src/main/res/drawable/roundblue1.xml" value="0.2984375" />
+        <entry key="app/src/main/res/drawable/roundred.xml" value="0.2984375" />
+        <entry key="app/src/main/res/drawable/roundyellow1.xml" value="0.2984375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/aerobic_activity.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/aerobic_climbing.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/aerobic_cycle.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/aerobic_run.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/aerobic_swim.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/aerobic_walk.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/calendar_activity.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/calendar_activity2.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/exercise_db.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/goal_activity.xml" value="0.2462962962962963" />
+        <entry key="app/src/main/res/layout/goal_text_activity.xml" value="0.29270833333333335" />
+        <entry key="app/src/main/res/layout/info_activity.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/join_activity.xml" value="0.20359281437125748" />
+        <entry key="app/src/main/res/layout/my_info_activity.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/myfeel_activity.xml" value="0.25833333333333336" />
+        <entry key="app/src/main/res/layout/sll_activity.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/start_activity.xml" value="0.2164855072463768" />
+        <entry key="app/src/main/res/layout/test.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/textxml.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/user_info_activity.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/w_a_barbelcurl.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/w_a_cablepushdown.xml" value="0.25833333333333336" />
+        <entry key="app/src/main/res/layout/w_a_dumbelcurl.xml" value="0.25833333333333336" />
+        <entry key="app/src/main/res/layout/w_a_loappushdown.xml" value="0.25833333333333336" />
+        <entry key="app/src/main/res/layout/w_b_barbellow.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/w_b_deadlift.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/w_b_repldown.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/w_c_pushup.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/w_l_legcurl.xml" value="0.2164855072463768" />
+        <entry key="app/src/main/res/layout/w_l_legextension.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/w_s_dumbelpress.xml" value="0.25833333333333336" />
+        <entry key="app/src/main/res/layout/w_s_fll.xml" value="0.2056159420289855" />
+        <entry key="app/src/main/res/layout/w_s_fll_activity.xml" value="0.2056159420289855" />
+        <entry key="app/src/main/res/layout/w_s_militarypress.xml" value="0.25833333333333336" />
+        <entry key="app/src/main/res/layout/w_s_sll.xml" value="0.2056159420289855" />
+        <entry key="app/src/main/res/layout/w_s_sll_activity.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/weight_activity.xml" value="0.36041666666666666" />
+        <entry key="app/src/main/res/layout/weight_arm_activity.xml" value="0.25833333333333336" />
+        <entry key="app/src/main/res/layout/weight_back_activity.xml" value="0.1879756678157323" />
+        <entry key="app/src/main/res/layout/weight_category.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/weight_chest_activity.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/weight_leg_activity.xml" value="0.25833333333333336" />
+        <entry key="app/src/main/res/layout/weight_record.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/weight_shoulder_activity.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/wieght_leg_activity.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2984375" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2984375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
